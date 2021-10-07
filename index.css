@@ -1,0 +1,203 @@
+/*
+
+    ███╗░░░███╗░█████╗░██████╗░███████╗  ██████╗░██╗░░░██╗
+    ████╗░████║██╔══██╗██╔══██╗██╔════╝  ██╔══██╗╚██╗░██╔╝
+    ██╔████╔██║███████║██║░░██║█████╗░░  ██████╦╝░╚████╔╝░
+    ██║╚██╔╝██║██╔══██║██║░░██║██╔══╝░░  ██╔══██╗░░╚██╔╝░░
+    ██║░╚═╝░██║██║░░██║██████╔╝███████╗  ██████╦╝░░░██║░░░                   
+    ╚═╝░░░░░╚═╝╚═╝░░╚═╝╚═════╝░╚══════╝  ╚═════╝░░░░╚═╝░░░       
+        ██╗░░░░░░█████╗░██╗░░░░░██╗░░██╗██████╗░██████╗░███████╗██╗░░░██╗
+        ██║░░░░░██╔══██╗██║░░░░░╚██╗██╔╝██╔══██╗██╔══██╗██╔════╝██║░░░██║
+        ██║░░░░░██║░░██║██║░░░░░░╚███╔╝░██║░░██║██║░░██║█████╗░░╚██╗░██╔╝
+        ██║░░░░░██║░░██║██║░░░░░░██╔██╗░██║░░██║██║░░██║██╔══╝░░░╚████╔╝░
+        ███████╗╚█████╔╝███████╗██╔╝╚██╗██████╔╝██████╔╝███████╗░░╚██╔╝░░
+        ╚══════╝░╚════╝░╚══════╝╚═╝░░╚═╝╚═════╝░╚═════╝░╚══════╝░░░╚═╝░░░
+*/
+
+/*
+    CSS for all elements.
+*/
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+}
+
+/*
+    Note:   Ratio = ((Screen Width/100)/16) * (percentages without % symbol) | Accurent Ratio Forumula
+
+            or
+
+            Ratio = 0.989375 * (percentages without % symbol) | Almost Accurent Ratio Forumula
+
+            Example: 
+                    9.89375 = 0.989375 * 10
+                    64.309375 = 0.989375 * 65
+*/
+
+/*
+    Info element.
+*/
+.info{
+    float:left;
+
+    margin-top:5%;
+    margin-left:9.89375em; /* %10 of ratio */
+
+    width:12.5em;
+    height:25em;
+}
+
+/*
+    Display food item element.
+*/
+div#display_food_item {
+    background-color:rgba(245, 222, 179, 0.781);
+    border-radius:0.5em;
+    border:3px #f5f5f5 solid;
+
+    margin-top:5%;
+    margin-left:64.309375em; /* %65 of Ratio */
+
+    float:left;
+
+    width:40%;
+    max-width:22em;
+    min-width:20em;
+
+    padding-bottom:2em;
+    padding-top:2em;
+
+    position:fixed;
+}
+
+div#display_food_item > span { 
+    text-align:center;
+
+    padding-bottom:5%;
+}
+
+div#display_food_item > img { 
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:5%;
+
+    border-radius:0.5em;
+    border:dotted whitesmoke 3px;
+
+    background-size:100% 100%;
+    background-position:center;
+}
+
+/*
+    Food List Element.
+*/
+div#list {
+    background-color:rgba(245, 222, 179, 0.781);
+    border-radius:0.5em;
+    border:3px #f5f5f5 solid;
+
+    margin-top:5%;
+    margin-left:9.89375em; /* %10 of ratio */
+
+    float:left;
+
+    width: 40%;
+    max-width:22em; 
+    min-width:20em;
+
+    padding-bottom:2em;
+}
+
+
+/*
+    Food item element.
+*/
+div#food-item {
+    margin-top:2em;
+    margin-left:auto;
+    margin-right:auto;
+
+    box-sizing:content-box;
+
+    background-color:rgba(245, 222, 179, 0.877);
+    border-radius:inherit;
+    border:3px whitesmoke solid;
+
+    padding:0.5em;
+
+    width:30%;
+    max-width:35em;
+    min-width:15em;
+}
+
+    /*
+        Food item element text.
+    */
+    div#food-item > div {
+        padding-top:0.5em;
+    }
+
+    div#food-item > div > span {
+        text-align:center;
+
+        font-size:1.5em;
+        font-weight:bold;
+
+        color:black;
+    }
+
+    div#food-item > div > span:hover {
+        color:gray;
+    }
+
+    /*
+        Food item data element.
+    */
+    div#food-item > ul#ingredients,
+    div#food-item > span#description {
+        display:none;
+    }
+
+/*
+    Element scaling for each device.
+*/
+@media screen and (max-width:1350px) {
+    .info{
+        margin-left:4.946875em; /* %5 of ratio */
+    }
+
+    div#display_food_item {
+        margin-left:57.5%; 
+    }
+    div#list {
+        margin-left:4.946875em; /* %5 of ratio */
+    }
+}
+
+@media screen and (max-width:1177px) {
+    .info{
+        display:none;
+    }
+}
+
+@media screen and (max-width:780px) {
+    div#list {
+        background-color:rgba(245, 222, 179, 0.781);
+        border:3px #f5f5f5 solid;
+        float:left;
+        margin-left: 4.946875em; /* %5 of ratio */
+    
+        width:40%;
+        max-width:22em;
+        min-width:20em;
+        padding-bottom:2em;
+    }
+
+    div#food-item {
+        padding:0.10em;
+        width:45%;
+    }
+}

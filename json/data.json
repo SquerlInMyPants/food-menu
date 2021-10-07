@@ -1,0 +1,75 @@
+{
+    "items": [
+        {
+            "type": "Cake",
+            "name": "Donut",
+            "icon_url": "https://cdn.bakkerbart.nl/media/catalog/product/cache/afb382f2589f4527c76899f7685dfe75/d/o/donut-confetti.jpg",
+            "toppings": [
+                "Sugar Glaze",
+                "Sprinkles"
+            ],
+            "description": "A delicous snack that can be eaten with warm drinks."
+        },
+        {
+            "type": "Sweat",
+            "name": "Cookie",
+            "icon_url": "./image/mm-cookies.jpg",
+            "toppings": [
+                "M&M"
+            ],
+            "description": "Fresh baked cookie with M&N. Yum!."
+        },
+        {
+            "type": "Drink",
+            "name": "Sweet Water",
+            "icon_url": "./image/Sweet-Water.jpg",
+            "toppings": [
+                "Suger",
+                "Water",
+                "Delicous"
+            ],
+            "description": "Sweet Water straight out of paris,<br> best season to drink this is when it's summer."
+        },
+        {
+            "type": "Cake",
+            "name": "Muffins",
+            "icon_url": "./image/vanilla_muffins.jpg",
+            "toppings": [
+                "None"
+            ],
+            "description": "A delicous snack that can be eaten with warm drinks."
+        },
+        {
+            "type": "Drink",
+            "name": "Coca Cola",
+            "icon_url": "./image/coca-cola.jpg",
+            "toppings": [
+                "Suger",
+                "Cafine"
+            ],
+            "description": "A delicous snack that can be eaten with warm drinks."
+        },
+        {
+            "type": "Snack",
+            "name": "Natural Crisps",
+            "icon_url": "./image/natural_crisps.png",
+            "toppings": [
+                "Suger Water",
+                "Water"
+            ],
+            "description": "A delicous snack that can be eaten with warm drinks."
+        },
+        {
+            "type": "Fried",
+            "name": "Chips and Fish",
+            "icon_url": "./image/Fish_and_Chips.jpg",
+            "toppings": [
+                "Fish",
+                "Chips",
+                "Salt",
+                "Garlic Sauce"
+            ],
+            "description": "A delicous snack that can be eaten with warm drinks."
+        }
+    ]
+}
