@@ -11,8 +11,9 @@ https://github.com/othneildrew/Best-README-Template
   </a>
   <h3 align="center"><u>Food Menu</u></h3>
     <br />
-    <br />
  <div align="center">
+    <br>
+    <br />
     <a href="https://github.com/SquerlInMyPants/food-menu/releases">View Releases</a>
     ·
     <a href="https://github.com/SquerlInMyPants/food-menuissues">Report Bug</a>
