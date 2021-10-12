@@ -12,11 +12,13 @@ https://github.com/othneildrew/Best-README-Template
   <h3 align="center"><u>Food Menu</u></h3>
     <br />
     <br />
+ <div align="center">
     <a href="https://github.com/SquerlInMyPants/food-menu/releases">View Releases</a>
     ·
     <a href="https://github.com/SquerlInMyPants/food-menuissues">Report Bug</a>
     ·
     <a href="https://github.com/SquerlInMyPants/food-menu/issues">Request Feature</a>
+</div>
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
