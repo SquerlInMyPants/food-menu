@@ -27,12 +27,12 @@ https://github.com/othneildrew/Best-README-Template
 
 
 <!--Icons-->
-[contributors-shield]: https://img.shields.io/github/contributors/ReallyFatYoshi/addon-jam.svg?style=for-the-badge
-[contributors-url]: https://github.com/ReallyFatYoshi/addon-jam/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/ReallyFatYoshi/addon-jam.svg?style=for-the-badge
-[forks-url]: https://github.com/ReallyFatYoshi/addon-jam/network/members
-[stars-shield]: https://img.shields.io/github/stars/ReallyFatYoshi/addon-jam.svg?style=for-the-badge
-[stars-url]: https://github.com/ReallyFatYoshi/addon-jam/stargazers
+[contributors-shield]: https://img.shields.io/github/contributors/SquerlInMyPants/food-menu.svg?style=for-the-badge
+[contributors-url]: https://github.com/SquerlInMyPantsfood-menu/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/SquerlInMyPants/food-menu.svg?style=for-the-badge
+[forks-url]: https://github.com/SquerlInMyPants/food-menu/network/members
+[stars-shield]: https://img.shields.io/github/stars/SquerlInMyPants/food-menu.svg?style=for-the-badge
+[stars-url]: https://github.com/SquerlInMyPants/food-menu/stargazers
 [issues-shield]: https://img.shields.io/github/issues/ReallyFatYoshi/addon-jam.svg?style=for-the-badge
 [issues-url]: https://github.com/ReallyFatYoshi/addon-jam/issues
 [license-shield]: https://img.shields.io/github/license/ReallyFatYoshi/addon-jam.svg?style=for-the-badge
