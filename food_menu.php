@@ -6,8 +6,8 @@
         <title style="font-size:0px;">Food Menu</title>
 
         <!--Custom Scripts-->
-        <link rel="stylesheet" href="./index.css" type="text/css">
-        <script src="./index.js"></script>
+        <link rel="stylesheet" href="./style.css" type="text/css">
+        <script src="./main.js"></script>
 
         <!--Google Fonts-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
