@@ -18,8 +18,9 @@ https://github.com/othneildrew/Best-README-Template
     ·
     <a href="https://github.com/SquerlInMyPants/food-menu/issues">Request Feature</a>
 </div>
-    <br>
     <br />
+    <br />
+    
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
