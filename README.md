@@ -36,7 +36,7 @@ https://github.com/othneildrew/Best-README-Template
 [forks-url]: https://github.com/SquerlInMyPants/food-menu/network/members
 [stars-shield]: https://img.shields.io/github/stars/SquerlInMyPants/food-menu.svg?style=for-the-badge
 [stars-url]: https://github.com/SquerlInMyPants/food-menu/stargazers
-[issues-shield]: https://img.shields.io/github/issues/ReallyFatYoshi/addon-jam.svg?style=for-the-badge
-[issues-url]: https://github.com/ReallyFatYoshi/addon-jam/issues
-[license-shield]: https://img.shields.io/github/license/ReallyFatYoshi/addon-jam.svg?style=for-the-badge
-[license-url]: https://github.com/ReallyFatYoshi/addon-jam/blob/main/LICENSE
+[issues-shield]: https://img.shields.io/github/issues/SquerlInMyPants/food-menu.svg?style=for-the-badge
+[issues-url]: https://github.com/SquerlInMyPants/food-menu/issues
+[license-shield]: https://img.shields.io/github/license/SquerlInMyPants/food-menu.svg?style=for-the-badge
+[license-url]: https://github.com/SquerlInMyPants/food-menu/blob/main/LICENSE
