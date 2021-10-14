@@ -53,8 +53,8 @@
             <p id="display_food_item_toppings"><strong style="color:gray;text-align:center;padding-bottom:5%;">Placeholder Text</strong></p>
             <span id="display_food_item_description"><strong style="color:gray;text-align:center;padding-bottom:5%;">Placeholder Text</strong></span>
         </div>
-        <!--<div class="info">
+        <div class="info">
             <a target="new" href="https://github.com/SquerlInMyPants"><img width="200px" height="400px" src="image\practice.png" alt="practice png"></a>
-        </div>-->
+        </div>
     </body>
 </html>

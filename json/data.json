@@ -3,7 +3,7 @@
         {
             "type": "Cake",
             "name": "Donut",
-            "icon_url": "https://cdn.bakkerbart.nl/media/catalog/product/cache/afb382f2589f4527c76899f7685dfe75/d/o/donut-confetti.jpg",
+            "icon_url": "./image/donut.png",
             "toppings": [
                 "Sugar Glaze",
                 "Sprinkles"
