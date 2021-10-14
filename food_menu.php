@@ -6,6 +6,7 @@
         <title style="font-size:0px;">Food Menu</title>
 
         <!--Custom Scripts-->
+        <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="./style.css" type="text/css">
         <script src="./main.js"></script>
 
